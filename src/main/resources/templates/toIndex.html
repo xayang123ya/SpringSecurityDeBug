@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/exetras/spring-sercurity">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>toIndex--经费有限，只能这么简陋了</title>
+    <link rel="icon" th:href="@{../img/Fevicon.png}" type="image/png">
+    <link rel="stylesheet" th:href="@{../vendors/bootstrap/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{../vendors/fontawesome/css/all.min.css}">
+    <link rel="stylesheet" th:href="@{../vendors/themify-icons/themify-icons.css}">
+    <link rel="stylesheet" th:href="@{../vendors/linericon/style.css}">
+    <link rel="stylesheet" th:href="@{../vendors/owl-carousel/owl.theme.default.min.css}">
+    <link rel="stylesheet" th:href="@{../vendors/owl-carousel/owl.carousel.min.css}">
+    <link rel="stylesheet" th:href="@{../vendors/nice-select/nice-select.css}">
+    <link rel="stylesheet" th:href="@{../vendors/nouislider/nouislider.min.css}">
+    <link rel="stylesheet" th:href="@{../css/style.css}">
+</head>
+<body>
+<h1>只是仅仅对学生用户进行测试，其他的用户若是进行测试也是大差不差</h1>
+           <p><span style="color: #c82333">不对页面作显示限制</span></p>
+           <p>/student/**----------<a>/student/**</a></p>
+           <p>student:add------------<a>student:add</a></p>
+           <p>student:delete------------<a>student:delete</a></p>
+           <p>student:update------------<a>student:update</a></p>
+           <p>student:select------------<a>student:select</a></p>
+           <br/>
+           <p><span style="color: #721c24">根据用户所拥有的权限去对页面作显示限制（根据用户所拥有的权限去限制页面中的元素展示）</span>在这个页面中我们还可以拿到用户所拥有的权限，然后控制它能看到的按钮/连接：也就是只有当当前有对应权限是，我们才将具有对应权限功能的显示给我们该用户</p>
+           <p>/student/**----------<a sec:authorize="hasAuthority('/student/**')">/student/**</a></p>
+           <p>student:add------------<a sec:authorize="hasAuthority('student:add')">student:add</a></p>
+           <p>student:delete------------<a sec:authorize="hasAuthority('student:delete')">student:delete</a></p>
+           <p>student:update------------<a sec:authorize="hasAuthority('student:update')">student:update</a></p>
+           <p>student:select------------<a sec:authorize="hasAuthority('student:select')">student:select</a></p>
+<script th:src="@{../vendors/jquery/jquery-3.2.1.min.js}"></script>
+<script th:src="@{../vendors/bootstrap/bootstrap.bundle.min.js}"></script>
+<script th:src="@{../vendors/skrollr.min.js}"></script>
+<script th:src="@{../vendors/owl-carousel/owl.carousel.min.js}"></script>
+<script th:src="@{../vendors/nice-select/jquery.nice-select.min.js}"></script>
+<script th:src="@{../vendors/jquery.ajaxchimp.min.js}"></script>
+<script th:src="@{../vendors/mail-script.js}"></script>
+<script th:src="@{../js/main.js}"></script>
+</body>
+</html>
