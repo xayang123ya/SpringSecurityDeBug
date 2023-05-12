@@ -3,8 +3,30 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="79035846-db51-43ad-9069-6485bb161d34" name="Default Changelist" comment="" />
+    <list default="true" id="79035846-db51-43ad-9069-6485bb161d34" name="Default Changelist" comment="提交了修改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/StudentController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2PHXMJfEDRPCTvDPmeQP60dz27k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -175,12 +199,39 @@
       <workItem from="1683762949926" duration="10699000" />
       <workItem from="1683797252927" duration="1089000" />
       <workItem from="1683798651685" duration="4022000" />
-      <workItem from="1683808692212" duration="2484000" />
+      <workItem from="1683808692212" duration="3657000" />
+      <workItem from="1683851749564" duration="3724000" />
+      <workItem from="1683869601066" duration="4161000" />
+      <workItem from="1683878035122" duration="1494000" />
     </task>
+    <task id="LOCAL-00001" summary="提交了修改">
+      <created>1683884915289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683884915289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交了修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683695732428">
@@ -215,54 +266,58 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="555" y="282" width="438" height="205" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1683812614426" />
-    <state width="1305" height="313" key="GridCell.Tab.0.bottom" timestamp="1683798344021">
+    <state x="259" y="83" key="Github.UntrackedFilesDialog" timestamp="1683812670210">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.0.center" timestamp="1683798344021">
+    <state x="259" y="83" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1683812670210" />
+    <state width="1305" height="80" key="GridCell.Tab.0.bottom" timestamp="1683874711697">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.0.left" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683874711697" />
+    <state width="1305" height="80" key="GridCell.Tab.0.center" timestamp="1683874711697">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.0.right" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1683874711697" />
+    <state width="1305" height="80" key="GridCell.Tab.0.left" timestamp="1683874711697">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.1.bottom" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1683874711697" />
+    <state width="1305" height="80" key="GridCell.Tab.0.right" timestamp="1683874711697">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.1.center" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1683874711697" />
+    <state width="1305" height="80" key="GridCell.Tab.1.bottom" timestamp="1683874711698">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.1.left" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683874711698" />
+    <state width="1305" height="80" key="GridCell.Tab.1.center" timestamp="1683874711698">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="313" key="GridCell.Tab.1.right" timestamp="1683798344021">
+    <state width="1305" height="80" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1683874711698" />
+    <state width="1305" height="80" key="GridCell.Tab.1.left" timestamp="1683874711698">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="313" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1683798344021" />
-    <state width="1305" height="343" key="GridCell.Tab.2.bottom" timestamp="1683775903545">
+    <state width="1305" height="80" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1683874711698" />
+    <state width="1305" height="80" key="GridCell.Tab.1.right" timestamp="1683874711698">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="343" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683775903545" />
-    <state width="1305" height="343" key="GridCell.Tab.2.center" timestamp="1683775903545">
+    <state width="1305" height="80" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1683874711698" />
+    <state width="1305" height="360" key="GridCell.Tab.2.bottom" timestamp="1683861107753">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="343" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1683775903545" />
-    <state width="1305" height="343" key="GridCell.Tab.2.left" timestamp="1683775903545">
+    <state width="1305" height="360" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1683861107753" />
+    <state width="1305" height="360" key="GridCell.Tab.2.center" timestamp="1683861107753">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="343" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1683775903545" />
-    <state width="1305" height="343" key="GridCell.Tab.2.right" timestamp="1683775903545">
+    <state width="1305" height="360" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1683861107753" />
+    <state width="1305" height="360" key="GridCell.Tab.2.left" timestamp="1683861107753">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1305" height="343" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1683775903545" />
+    <state width="1305" height="360" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1683861107753" />
+    <state width="1305" height="360" key="GridCell.Tab.2.right" timestamp="1683861107753">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1305" height="360" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1683861107753" />
     <state x="213" y="39" key="Maven.ArtifactSearchDialog" timestamp="1683638923430">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -271,6 +326,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1683812071938" />
+    <state x="258" y="53" key="Vcs.Push.Dialog.v2" timestamp="1683878063973">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="258" y="53" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1683878063973" />
     <state x="565" y="271" width="336" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1683378033919">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -279,6 +338,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="101" y="102" width="1165" height="566" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1683773533664" />
+    <state x="228" y="12" width="911" height="756" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1683860903882">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="228" y="12" width="911" height="756" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1683860903882" />
+    <state x="260" y="120" key="git4idea.merge.GitPullDialog" timestamp="1683874491374">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="260" y="120" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1683874491374" />
+    <state x="290" y="246" key="git4idea.rebase.GitRebaseDialog" timestamp="1683878054567">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="290" y="246" key="git4idea.rebase.GitRebaseDialog/0.0.1366.768@0.0.1366.768" timestamp="1683878054567" />
     <state x="463" y="130" key="refactoring.ChangeSignatureDialog" timestamp="1683378756403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
